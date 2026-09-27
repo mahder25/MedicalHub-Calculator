@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedicalHub Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="app" >
+  <button class="main-btn" id="main-btn">Categories ▾</button>
+  <nav  class="rail" id="rail">
+    <div class="brand">MedCalc Hub<span>Quick clinical calculators</span></div>
+    <div class="cat">General</div>
+    <button class="naviitem" data-tool="bmi">BMI &amp; BSA</button>
+    <div class="cat">Renal</div>
+    <button class="naviitem" data-tool="CrCl" >Creatinine Clearance</button>
+    <div class="cat">Neuro</div>
+    <button class="naviitem" data-tool="GCS">Glasgow Coma Scale</button>
+    <div class="cat">Cardiac</div>
+    <button class="naviitem" data-tool="chad" >CHA₂DS₂-VASc</button>
+    <div class="cat">Labs</div>
+    <button class="naviitem" data-tool="anion" >Anion Gap</button>
+    <button class="naviitem" data-tool="calcium">Corrected Calcium</button>
+  </nav>
+    
+    <main id="main"></main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
